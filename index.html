@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rama Venkata Manikanta Sairam Kattunga - Portfolio</title>
+    <meta name="description"
+        content="Dynamic portfolio of Rama Venkata Manikanta Sairam Kattunga, a Computer Science graduate specializing in Artificial Intelligence, Full Stack Development, and Machine Learning." />
+    <meta name="keywords"
+        content="Rama Sairam, Portfolio, AI, Artificial Intelligence, Full Stack Developer, Machine Learning, Software Engineer, Java, React, Flutter, MySQL" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        /* Background image for the entire page */
+        body {
+          background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1470&q=80');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff; /* Adjust text color for visibility */
+        }
+
+        /* Optional: add a subtle overlay to improve readability */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* dark overlay */
+            z-index: -1;
+        }
+
+        /* Make sure links and buttons remain visible */
+        a,
+        button,
+        nav,
+        header,
+        main,
+        footer {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Sairam Kattunga</div>
+            <ul id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <img src="https://avatars.githubusercontent.com/u/92713465?v=4" alt="Rama Venkata Manikanta Sairam Kattunga" />
+        <h1>Rama Venkata Manikanta Sairam Kattunga</h1>
+        <p class="bio">A forward-thinking Computer Science graduate from India, specializing in the dynamic fields of Artificial
+            Intelligence, Machine Learning, and Full-Stack Development. Driven by a passion to engineer intelligent
+            solutions and craft seamless user experiences that contribute to a technologically empowered future.</p>
+        <button class="download-btn" id="downloadResumeBtn">Download Resume</button>
+    </header>
+
+    <main class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Highly motivated and recently graduated with a degree in Computer Science, possessing a strong theoretical
+                foundation and practical skills in <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>
+                algorithms, and full-spectrum <strong>Web Development</strong>. Eager to leverage my knowledge in creating
+                innovative and scalable applications. My academic journey has equipped me with the ability to adapt quickly
+                to emerging technologies and collaborate effectively within dynamic teams. I am now seeking opportunities
+                to apply my expertise in a challenging and rewarding environment where I can contribute to meaningful projects
+                and continue to grow as a technology professional.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Core Technologies</h3>
+                    <ul class="skill-list">
+                        <li><strong>Languages:</strong> Java, JavaScript, Python, HTML5, CSS3, SQL (MySQL)</li>
+                        <li><strong>Frontend:</strong> React.js, Flutter, Responsive Web Design</li>
+                        <li><strong>Backend:</strong> Node.js (Basic), Firebase (Firestore, Realtime Database)</li>
+                        <li><strong>Version Control:</strong> Git, GitHub</li>
+                        <li><strong>APIs:</strong> RESTful API Integration</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Artificial Intelligence & Cloud</h3>
+                    <ul class="skill-list">
+                        <li><strong>Machine Learning:</strong> Supervised & Unsupervised Learning (Regression, Classification,
+                            Clustering), Data Preprocessing</li>
+                        <li><strong>Deep Learning:</strong> Basic understanding of CNNs, Neural Networks</li>
+                        <li><strong>Generative AI:</strong> Certified Professional (OCI)</li>
+                        <li><strong>Cloud Platforms:</strong> AWS (Basic), Azure (Basic), GCP (Basic)</li>
+                        <li><strong>IoT:</strong> Sensor Networks, Protocols, Application Deployment</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional & Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li><strong>Problem Solving:</strong> Analytical Thinking, Debugging, Solution Design</li>
+                        <li><strong>Teamwork:</strong> Collaboration, Cross-functional Communication, Leadership (Tech Team Lead
+                            experience)</li>
+                        <li><strong>Project Management:</strong> Agile Methodologies (Basic), Time Management, Prioritization</li>
+                        <li><strong>Adaptability:</strong> Rapid Learning, Embracing New Technologies</li>
+                        <li><strong>Communication:</strong> Fluent in English, Telugu (Native), Conversational Hindi</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img class="project-image"
+                        src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                        alt="Personal Portfolio Website" />
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive Portfolio Showcase</h3>
+                        <p class="project-desc">Developed a dynamic personal portfolio leveraging React.js for a responsive front-end
+                            and styled with Tailwind CSS. Features include a dark mode toggle, engaging animations, and integrated
+                            CI/CD pipeline for seamless updates and deployment on platforms like Netlify or Vercel.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Sairam-kattunga/portfolio" target="_blank" rel="noopener noreferrer">View
+                                Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="C:\Users\MI\Desktop\portfolio\simatix.jpeg" alt="Simatix App" />
+                    <div class="project-content">
+                        <h3 class="project-title">Simatix - College Connect Platform</h3>
+                        <p class="project-desc">Architected and built a full-stack mobile application, "Simatix," using Flutter and Firebase.
+                            This platform enables real-time faculty feedback, anonymous student messaging, targeted push notifications,
+                            and remote application configuration, fostering enhanced communication and engagement within the college
+                            community.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Sairam-kattunga/Simatix" target="_blank" rel="noopener noreferrer">View
+                                Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image"
+                        src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhZmZpYyUyMGNvbmRlc3Rpb24fZW4fDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                        alt="Traffic Congestion CNN" />
+                    <div class="project-content">
+                        <h3 class="project-title">CNN-Based Traffic Congestion Monitoring</h3>
+                        <p class="project-desc">Engineered a Convolutional Neural Network (CNN) model using Python and TensorFlow/Keras
+                            to analyze and predict traffic congestion levels from image data. This project aims to contribute to smarter
+                            urban planning and real-time traffic management systems in developing smart cities.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image"
+                        src="https://images.unsplash.com/photo-1506784365847-259898447593?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FmZXR5JTIwZGV2aWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                        alt="Personal Safety Device" />
+                    <div class="project-content">
+                        <h3 class="project-title">Integrated Personal Safety Solution</h3>
+                        <p class="project-desc">Conceptualized and designed a comprehensive personal safety device incorporating a
+                            high-intensity torchlight, a non-lethal pepper spray mechanism, and a GPS-enabled emergency alert system.
+                            The design focuses on enhancing personal security and providing immediate assistance in critical situations.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer">View Design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Drone Pilot Intern</h3>
+                    <span>Garuda Aerospace · Maharashtra, India · May–July 2024</span>
+                    <p>Undertook a comprehensive 2-month internship focusing on drone operations for precision agriculture and
+                        advanced surveillance. Gained practical expertise in drone navigation, data acquisition, and preliminary
+                        analysis of aerial imagery, contributing to real-world applications of drone technology.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Tech Team Lead</h3>
+                    <span>ACE AI Inc. · Remote · 2024–Present</span>
+                    <p>Currently leading the deployment of sophisticated SaaS solutions for self-driving car systems across major
+                        cloud platforms including AWS, Azure, and GCP. Responsibilities encompass optimizing deployment pipelines,
+                        ensuring seamless integration with partner systems, and driving technical excellence within the team.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                    <span>Saveetha School of Engineering, Chennai, India · 2021–2025</span>
+                    <p>Achieved a commendable current CGPA of 8.7/10. Actively participated in numerous hackathons, contributed
+                        to innovative AI and Machine Learning projects, and held leadership positions within student technical
+                        clubs, fostering a collaborative learning environment.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Intermediate Education (Mathematics, Physics, Chemistry)</h3>
+                    <span>Sri Chaitanya Junior College · 2019–2021</span>
+                    <p>Secured a distinguished score of 96.4% in the Andhra Pradesh Board of Intermediate Education examinations,
+                        demonstrating a strong aptitude for mathematics and physics, which form the foundational pillars of computer
+                        science.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Secondary School Education</h3>
+                    <span>Bhashyam High School · 2019</span>
+                    <p>Graduated with an exceptional GPA of 9.8, showcasing consistent academic excellence. Served as the captain
+                        of the school's Kho-Kho team and was an enthusiastic participant in various extracurricular clubs, highlighting
+                        leadership and teamwork skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Oracle Cloud Infrastructure 2024: Generative AI Certified Professional</h3>
+                    <span>Oracle University · July 2024</span>
+                    <p>Successfully obtained certification demonstrating proficiency in designing, developing, and deploying Generative
+                        AI workloads on the Oracle Cloud Infrastructure (OCI), showcasing expertise in cutting-edge AI technologies.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Responsive Web Design</h3>
+                    <span>freeCodeCamp · July 2024</span>
+                    <p>Completed over 300 hours of rigorous HTML and CSS projects, including mastering advanced layout techniques and
+                        responsive design principles, validating the ability to create visually appealing and user-friendly web interfaces.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Essentials of Cloud Computing</h3>
+                    <span>Infosys Springboard · 2024</span>
+                    <p>Acquired a comprehensive understanding of fundamental cloud computing models, diverse service offerings (IaaS,
+                        PaaS, SaaS), and various deployment strategies, enhancing knowledge of scalable and efficient cloud-based
+                        solutions.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>IoT NPTEL Certification</h3>
+                    <span>NPTEL · 2023</span>
+                    <p>Successfully completed the National Programme on Technology Enhanced Learning (NPTEL) certification in Internet
+                        of Things (IoT), covering smart system architectures, sensor network protocols, and the deployment of practical
+                        IoT applications.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+    <h2>Contact</h2>
+    <p>I am currently seeking exciting new opportunities and collaborations. Please feel free to reach out through the
+        channels below. I am eager to discuss potential projects and contributions.</p>
+
+    <div class="contact-details">
+    <p><strong>Email:</strong> sairamkattunga333@gmail.com</p>
+    <p><strong>Phone:</strong> +91 96427 36457</p>
+    <p><strong>Location:</strong> Yendagandi Village, Undi Mandal, West Godavari, Andhra Pradesh, India</p>
+</div>
+
+
+    <div class="social-links">
+        <a href="mailto:sairamkattunga333@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/sairamkrvm123" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Sairam-kattunga" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+
+    <h3>Connect with Me</h3>
+    <form id="contactForm" action="#" method="POST">
+        <label for="name">Name</label><br/>
+        <input type="text" id="name" name="name" placeholder="Your name" required /><br/><br/>
+
+        <label for="email">Email</label><br/>
+        <input type="email" id="email" name="email" placeholder="Your email" required /><br/><br/>
+
+        <label for="message">Message</label><br/>
+        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea><br/><br/>
+
+        <button type="submit" class="download-btn">Send Message</button>
+    </form>
+
+    <button class="download-btn" id="downloadResumeBtnBottom">Download Resume</button>
+</section>
+
+
+    </main>
+
+    <footer>
+        &copy; 2025 Rama Venkata Manikanta Sairam Kattunga. All Rights Reserved.
+    </footer>
+
+    <button class="scroll-top-btn"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
